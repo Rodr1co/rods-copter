@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.bigdogmultimedia.rodscopter" version = "1.0.0">
+<name>Rods Copter</name>
+<description>This is my 4th phonegap game. Built for my iPhone 4S</description>
+<author href="http://www.biznetkc.com" email="rod@prowebmaker.com">Roderick Snyder</author>
+<feature name="http://api.phonegap.com/1.0/device" />
+<preference name="phonegap-version" value="2.1.0" />
+<preference name="orientation" value="landscape" />
+<preference name="target-device" value="universal" />
+<preference name="fullscreen" value="true" />
+<preference name="webviewbounce" value="false" />
+<preference name="prerendered-icon" value="true" />
+<preference name="autorotate" value="false" readonly="true" /> 
+<access origin="*" />
+<icon src="icon.png" />
+<gap:splash src="images/mountains.png" gap:platform="ios" width="320" height="460" />
+</widget>

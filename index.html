@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- saved from url=(0013)about:internet -->
+<title>Rod's Crazy Copter</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no">
+<link rel="apple-touch-icon-precomposed" href="assets/icon57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/icon72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/icon114.png" />
+<link rel="stylesheet" href="css/rodscopter.css" type="text/css" media="all">
+<script>
+var myimages=new Array();
+function preloadimages(){
+for (i=0;i<preloadimages.arguments.length;i++){
+myimages[i]=new Image();
+myimages[i].src=preloadimages.arguments[i];
+}
+}
+preloadimages(
+"images/mountains.png", 
+"images/block.png", 
+"images/copter.png", 
+"images/invincible.png",
+"images/explode1.png", 
+"images/explode2.png", 
+"images/explode3.png", 
+"images/explode4.png",
+"images/explode5.png", 
+"images/greenstar.png", 
+"images/playnow.png", 
+"images/playagain.png",
+"images/resumeplay.png"
+)
+</script>
+<script src="js/rodscopter.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<canvas id="canvas"></canvas>
+<div id="playgame" style="display: block"></div>
+<div id="playagain" style="display: none;"></div>
+<div id="resumeplay" style="display: none;"></div>
+</div>
+</body>
+</html>

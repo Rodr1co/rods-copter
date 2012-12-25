@@ -1,0 +1,25 @@
+
+body { 
+padding: 0; 
+margin: 0; 
+background: #000;
+-webkit-touch-callout: none; 
+-webkit-user-select: none; 
+-khtml-user-select: none; 
+-moz-user-select: none; 
+-ms-user-select: none; 
+user-select: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+
+#wrapper, #canvas, #playgame, #playagain, #resumeplay { padding: 0;  margin: 0;  border: 0; }
+#wrapper, #canvas { width: 480px; height: 320px; }
+#wrapper { position: relative; }
+#canvas { background: url('../images/mountains.png') no-repeat 0 0; }
+#playgame, #playagain, #resumeplay { width: 200px; height: 44px; opacity: 0.7; }
+#playgame { position: absolute; top: 140px; left: 140px; }
+#playagain { position: absolute; top: 140px; left: 140px; }
+#resumeplay { position: absolute; top: 140px; left: 140px; }
+#playgame { background: url('../images/playnow.png') no-repeat 0 0; }
+#playagain { background: url('../images/playagain.png') no-repeat 0 0; }
+#resumeplay { background: url('../images/resumeplay.png') no-repeat 0 0; }
